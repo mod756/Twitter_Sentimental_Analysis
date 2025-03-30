@@ -73,15 +73,15 @@ jupyter notebook Twitter_Sentiment_Analysis_Model_Comparison.ipynb
 
 ## Results
 ### Model Performance:
-- **Logistic Regression:** Accuracy: **74.25%**
-- **Naive Bayes:** Accuracy: **93.04%**
-- **Neural Network:** Accuracy: **71.65%**
-- **BERT Model:** Accuracy: **66.60%**
+- **Logistic Regression:** Accuracy: **70.05%**
+- **Naive Bayes:** Accuracy: **75.4%**
+- **Neural Network:** Accuracy: **70.74%**
+- **BERT Model:** Accuracy: **49.4%**
 
 ### Observations:
-- Naive Bayes outperforms all models with an accuracy of **93.04%**, likely due to its effectiveness with sparse text data and the simplicity of the dataset.
-- Logistic Regression (**74.25%**) and Neural Network (**71.65%**) perform moderately well, with Logistic Regression slightly ahead.
-- BERT (**66.60%**) underperforms compared to expectations, falling below all other models.
+- Naive Bayes outperforms all models with an accuracy of **75.4%**, likely due to its effectiveness with sparse text data and the simplicity of the dataset.
+- Logistic Regression (**70.05%**) and Neural Network (**70.74%**) perform moderately well, with Logistic Regression slightly ahead.
+- BERT (**49.4%**) underperforms compared to expectations, falling below all other models.
 
 ### Why BERT Underperformed:
 - **Small Dataset Size:** The `twitter_samples` dataset (10,000 tweets) may be insufficient for BERT to leverage its full potential, as transformer models typically excel with larger datasets (e.g., millions of samples).
